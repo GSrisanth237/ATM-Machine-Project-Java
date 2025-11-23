@@ -1,0 +1,109 @@
+ATM Simulation System – Java (OOP Project)
+
+A console-based ATM Simulation System built using Core Java and Object-Oriented Programming (OOP) principles.
+This project demonstrates Encapsulation, Interfaces, Classes, Collections, and real-life ATM operations through a simple user interface.
+
+
+---
+
+🔹 Features
+
+🔐 ATM Number & PIN Verification
+
+💰 View Account Balance
+
+➕ Deposit Amount
+
+➖ Withdraw Amount (Only in multiples of ₹500)
+
+🧾 Mini Statement (Transaction History using HashMap)
+
+🖥️ Menu-driven Console Interface
+
+🧱 OOP-based Clean Structure
+
+
+
+---
+
+🔹 Technologies Used
+
+Java 8+
+
+Object-Oriented Programming
+
+HashMap (for mini statement)
+
+Scanner class (user input)
+
+
+
+---
+
+🔹 Project Structure
+
+ATM-Machine-Project-Java/
+│
+├── ATM.java
+├── ATMinterface.java
+├── ATMoperationimpl.java
+└── Userinterface.java
+
+
+---
+
+🔹 How the System Works
+
+1. User enters ATM Number & PIN.
+
+
+2. If authenticated, user can:
+
+View Balance
+
+Deposit Cash
+
+Withdraw Cash
+
+View Mini Statement
+
+
+
+3. System logs each transaction using a HashMap.
+
+
+4. Clean exit from the system.
+
+
+
+
+---
+
+🔹 Sample Output
+
+WELCOME TO ATM MACHINE
+ENTER THE ATM NUMBER: 123456
+ENTER THE ATM PIN: 123
+
+1. View Balance
+2. Withdraw Amount
+3. Deposit Amount
+4. View Mini Statement
+5. Exit
+
+
+---
+
+🔹 Concepts Demonstrated
+
+Encapsulation (Getters/Setters)
+
+Interfaces
+
+HashMap Collection
+
+Method Overriding
+
+Modular programming
+
+Console-based UI
